@@ -1,3 +1,22 @@
+/*
+==============================================================
+QUALITY CHECKS
+==============================================================
+SCRIPT PURPOSES:
+This scripts perform various checks for data consistency, 
+and standardization across the silver and bronze schema.
+It includes checks for:
+	- Null or duplicates primary keys
+	- Unwanted spaces in string field
+	- Data standardization & consistency
+	- Invalid date orders & ranges
+	- Data consistency between related fields.
+
+USAGE NOTES:
+- Change the table names according what you want to test on silver and bronze schema
+- Use it after run data load scripts. 
+==============================================================
+*/
 -- Checking for NULL or Duplicates in Primary Key
 -- Expectation:	No Result
 SELECT
