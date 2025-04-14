@@ -5,12 +5,18 @@ EXPLORATORY DATA ANALYSIS: USING GOLD LAYER
 SCRIPT PURPOSES:
 This script performs EDA in the gold layer. 
 	Action Performed:
-	1. Exploring database
-	2. Exploring dimension
-	3. Exploring Date
-	4. Exploring measures
+	1. Exploring database (Exploring all objects and columns in databases)
+	2. Exploring dimension 
+		- Identifying unique values or categories in each dimension
+		- Analysing how data might be grouped or segmented
+	3. Exploring Date 
+		- Identifying the earliest and latest dates (boundaries) to understand scope of data and timespan
+	4. Exploring measures 
+		- Finding the key metrics (Big Number) of the business
 	5. Magnitude Analysis
+		- Compare measures value by categories and dimension to help understand the importance of different categories
 	6. Ranking Analysis
+		- Order/Rank the values of dimensions by value
 
 PARAMETERS:
 None. This procedure doesn't receive or return any values.
