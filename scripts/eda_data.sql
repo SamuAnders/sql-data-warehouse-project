@@ -1,3 +1,25 @@
+/*
+==============================================================================
+EXPLORATORY DATA ANALYSIS: USING GOLD LAYER
+==============================================================================
+SCRIPT PURPOSES:
+This script performs EDA in the gold layer. 
+	Action Performed:
+	1. Exploring database
+	2. Exploring dimension
+	3. Exploring Date
+	4. Exploring measures
+	5. Magnitude Analysis
+	6. Ranking Analysis
+
+PARAMETERS:
+None. This procedure doesn't receive or return any values.
+
+USAGE EXAMPLES:
+Execute the specific block to test and analyze different component
+==============================================================================
+*/
+
 -- 1. Database Exploration
 -- Explore All Objects in the Database
 SELECT * FROM INFORMATION_SCHEMA.TABLES;
