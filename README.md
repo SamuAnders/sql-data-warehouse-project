@@ -1,7 +1,7 @@
 # SQL Data Warehouse Project
 
 Hello, welcome to data warehouse and analytics projects 👋
-In this project I build data warehouse with SQL Server, including ETL processes, data modelling, and analytics for generating actionable insights. This project is a tutorial I see from Baara
+In this project I build data warehouse with SQL Server, including ETL processes, data modelling, and analytics for generating actionable insights. This project is a tutorial I see from Baara. I only make minor modification
 
 ---
 ## 🌐 Data Architecture
