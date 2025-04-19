@@ -55,4 +55,4 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 For more details, refer to [docs/requirements.md](docs/).
 
-Tutorial Source: **[Data with Baara](www.youtube.com/@DataWithBaraa)**
+Tutorial Source: **[Data with Baara](https://github.com/DataWithBaraa)**
