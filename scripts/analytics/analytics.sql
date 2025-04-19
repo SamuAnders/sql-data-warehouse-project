@@ -1,3 +1,37 @@
+/*
+===============================================================================
+ADVANCE ANALYTICS
+===============================================================================
+PURPOSES:
+This script is used to do various analytics:
+1. Change Over Time analysis
+	- To explore the structure of the database, including the list of tables and their schemas.
+	- To inspect the columns and metadata for specific tables.
+2. Cumulative Analysis
+	- To track cumulative performance
+	- To analyze growth for long term goals
+3. Performance Analysis
+	- Measuring the performance of products, customers, or regions over time
+	- Benchmarking and identifying high-performing entities
+	- Tracking growth by comparing to previous sales
+4. Part to Whole Analysis
+	- To compare performance or metrics across dimensions or time periods.
+    	- To evaluate differences between categories.
+    	- Useful for A/B testing or regional comparisons. 
+5. Data Segmentation
+	- Group data to meaningful categories for targeted insights
+	- For customer segmentation, product categorization, or regional analysis
+
+SQL FUNCTIONS USED:
+	- Date Functions: DATEPART(), DATETRUNC(), FORMAT()
+    	- Aggregate Functions: SUM(), COUNT(), AVG()
+	- Window Functions: SUM() OVER(), AVG() OVER()
+	- LAG(): Accesses data from previous rows.
+	- CASE: Defines conditional logic for trend analysis.
+	- GROUP BY: Groups data into segments.
+	- CTEs: A virtual table that only its main query can access
+===============================================================================
+*/
 -- 1. Change Over Time analysis
 -- Analyze Sales Peformance Overtime
 SELECT COLUMN_NAME, DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS
@@ -140,8 +174,8 @@ GROUP BY cost_range
 ORDER BY total_product DESC;
 
 /*Group customers into three segments based on their spending behavior:
-	- VIP: Customers with at least 12 months of history and spending more than €5,000.
-	- Regular: Customers with at least 12 months of history but spending €5,000 or less.
+	- VIP: Customers with at least 12 months of history and spending more than â‚¬5,000.
+	- Regular: Customers with at least 12 months of history but spending â‚¬5,000 or less.
 	- New: Customers with a lifespan less than 12 months.
 And find the total number of customers by each group
 */
